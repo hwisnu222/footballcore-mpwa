@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="footballcore" />
+    <meta name="theme-color" content="#1e88e5" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Core</title>
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="blue darken-1" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container">FootballCore</a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav collection" id="nav-mobile"></ul>
+      </div>
+    </nav>
+
+    <!-- content -->
+    <main class="container" id="content"></main>
+
+    <!-- javascript -->
+    <script src="./js/materialize.min.js"></script>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="./registerServiceWorker.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+  </body>
+</html>

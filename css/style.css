@@ -1,0 +1,9 @@
+body {
+  background-image: url("/images/banner.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.title-home {
+  margin-top: 50px;
+}
